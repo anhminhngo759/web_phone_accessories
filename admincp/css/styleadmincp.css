@@ -1,0 +1,149 @@
+
+ul.admincp_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.admincp_list li {
+    float: left;
+    margin: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.wrapper{
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    /* float: left; */
+}
+
+table.add  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.add td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.listed {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.listed th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.listed td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.fix  {
+    border: 1px solid #6699FF;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table.fix td{
+    border: 1px solid #6699FF;
+    border-collapse: collapse;
+}
+
+textarea {
+    resize: none;
+    /* visibility: visible !important; */
+}
+
+
+/*Đăng nhập*/
+h3.loginb {
+    /* margin: 30px; */
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#wrapper-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin: 30px;
+}
+
+.login {
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.dangnhap {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container1 { 
+    border-radius: 5px;
+    background-color: #f2f2f2; 
+    padding: 20px;
+}
+
+label.lbdk { 
+    padding: 12px 12px 12px 0;  
+    display: inline-block;
+}
+.rowdangky {  
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;  
+    border-radius: 4px; 
+    resize: vertical;
+}
+
+.rowdangky1 {  
+    width: 70%; 
+    padding: 9px; 
+    border: 1px solid #ccc;  
+    border-radius: 4px; 
+    resize: vertical;
+}
+
+.bdk{
+    padding: 9px; 
+    margin-left: 350px;
+}
+
+.bdksp{
+    padding: 9px; 
+    margin-left: 450px;
+}
+
+.bdkdmbv{
+    padding: 9px; 
+    margin-left: 350px;
+}
+
+

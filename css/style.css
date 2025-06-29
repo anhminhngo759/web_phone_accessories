@@ -1,0 +1,587 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    /* float: left; */
+}
+
+.wrapper_chitiet{
+    /* border: 1px solid blue; */
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.chitiet_sanpham{
+    float: right;
+    width: 59%;
+    margin: 0 15px;
+    /* border: 1px solid red; */
+}
+
+h3 {
+    margin: 0;
+}
+
+input.themgiohang {
+    border: none;
+    background: #09F;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*them gio hang*/
+table.cart {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+}
+
+table.cart td {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: black;
+}
+
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: black;
+}
+
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.header{
+    background-image: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid pink;
+    height: 180px;
+    width: 100%;
+    /* background-color: #f94c2f; */
+}
+
+.menu{
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+    background-color: #09F;
+}
+
+.sub_menu {
+    /*sub_menu: Dùng để căn chính giữa menu */
+    display: grid;
+    justify-content: center;
+}
+
+ul.list_menu {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 102%;
+    line-height: 27px;
+}
+
+ul.list_menu li {
+    float: left;
+    margin: 7px;
+    /* border: 1px solid black; */
+    padding-top: 6px;
+    padding-bottom: 6px;
+} 
+
+ul.list_menu li:hover {
+    background-color: burlywood;
+}
+
+ul.list_menu li a {
+    display: flex;
+    /* /* align-items: center; */
+    text-decoration: none;
+    text-align: center;
+    /* border: 1px solid black; */
+    color: black;
+    margin-right: 10px;
+} 
+
+/*Thanh tim kiem*/
+li#timkiem  {
+    background-color: transparent;
+    margin-top: 3px;
+    /* display: grid;
+    justify-content: center; */
+    /* margin: 0 auto; */
+    /* width: 12%; */
+}
+
+#main{
+    border: 1px solid blue;
+    height: auto;
+    /* display: flex; */
+    width: 100%;
+    /* float: left; */
+    /* background-color: orange; */
+}
+
+.sidebar {
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    margin: 5px;
+    float: left;
+}
+
+ul.list_sidebar {
+    padding: 0;
+    /* margin: 0 auto; */
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 27px;
+}
+
+ul.list_sidebar li {
+    margin: 7px;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+ul.list_sidebar li:hover {
+    background-color: #09527b;
+}
+
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    color: black;
+}
+
+.maincontent{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 3px;
+}
+
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.product_list li {
+    width: 18%;
+    border: 1px solid #ddd;
+    /* margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 11px; */
+    margin: 8px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+ul.product_list li a {
+    text-decoration: none;
+}
+
+ul.product_list li img {
+    /* width:165px; */
+    width:100%;
+    height:170px;
+}
+
+p#namedm {
+    text-align: center;
+    color: #d1d1d1;
+}
+
+p.price_product {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+
+p.title_product {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.baiviet li {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/*Pagination : Phân trang*/
+.pagination li:hover {background-color: #ddd;}
+.pagination li {
+    float: left;
+    padding: 5px 13px;
+    margin: 5px;
+    background-color:  #595959;
+    display: block;
+    /* text-decoration: none; */
+}
+.pagination li a {
+    color: #d9d9d9;
+    text-align: center;
+    text-decoration: none;    
+}
+
+/* Form đăng ký */
+.rowdangky {  
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;  
+    border-radius: 4px; 
+    resize: vertical;
+}
+label.lbdk { 
+    padding: 12px 12px 12px 0;  
+    display: inline-block;
+}
+.buttondangky{  
+    background-color: #595959;  
+    color: white; 
+    padding: 12px 20px;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.buttondangky:hover {  
+    background-color: #09F;
+}
+.container1 { 
+    border-radius: 5px;
+    background-color: #f2f2f2; 
+    padding: 20px;
+}
+.col-25 {
+    float: left; 
+    width: 25%;  
+    margin-top: 6px;
+}
+.col-75 {  
+    float: left;  
+    width: 75%; 
+    margin-top: 6px;
+}
+.row:after {
+    content: ""; 
+    display: table; 
+    clear: both;
+}
+
+.buttondk {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Bố cục linh hoạt: khi màn hình có chiều rộng dưới 600px thì hai cột chồng lên nhau thay vì nằm cạnh nhau */
+@media screen and (max-width: 600px) {  
+    .col-25, .col-75, .buttondangky {  
+        width: 100%;    
+        margin-top: 0;
+    }
+}
+
+a.dangnhap {
+    padding-left: 29px;
+}
+
+/*Đăng nhập*/
+h3.loginb {
+    margin: 14px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#wrapper-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login {
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.dangnhap {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.col-md-4.hinhthucthanhtoan .form-check {
+    margin: 11px;
+}
+/* lich su don hang*/
+table.listed {
+    border: 1px solid #09527b;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.listed th {
+    border: 1px solid #09527b;
+    border-collapse: collapse;
+}
+
+table.listed td {
+    border: 1px solid #09527b;
+    border-collapse: collapse;
+}
+
+/**/
+.footer{
+    border: 1px solid green;
+    height: auto;
+    width: 100%;
+    background-color: #09F;
+}
+
+p.footer_copyright {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*carousel */
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.imgcarou{
+    width: 100%; 
+    height: 280px;
+}
+/* .img {
+    height : 100%;
+} */
+
+/* .wrapper-login{
+    width: 20%;
+    margin: 0 auto;
+}
+.table_login{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.table_login tr td {
+    padding: 5px;
+    border: 1px solid black;
+} */
+
+.rowdangky1 {  
+    width: 70%; 
+    padding: 9px; 
+    border: 1px solid #ccc;  
+    border-radius: 4px; 
+    resize: vertical;
+}
+
+.bdk{
+    padding: 9px; 
+    margin-left: 350px;
+}
+
+
+/* Tabs */
+.tabs {
+    width: 100%;
+    background-color: #09F;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #08E;
+  }
+#tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.tab-content {
+    padding: 10px;
+    border: 5px solid #09F;
+    background-color: #FFF;
+}
+ 
+/*Progress bar*/
+/* jQuery Demo */
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+  }
+  
+.arrow-steps .step {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    cursor: default;
+    margin: 0 1px 0 0;
+    padding: 10px 0px 10px 0px;
+    width: 15%;
+    float: left;
+    position: relative;
+    background-color: #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.arrow-steps .step a {
+    color: #777;
+    text-decoration: none;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #ddd;
+    z-index: 2;
+}
+
+.arrow-steps .step:before {
+    right: auto;
+    left: 0;
+    border-left: 17px solid #fff;
+    z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+    border: none;
+}
+
+.arrow-steps .step:last-child:after {
+    border: none;
+}
+
+.arrow-steps .step:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.arrow-steps .step span {
+    position: relative;
+}
+
+*.arrow-steps .step.done span:before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -10px;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.arrow-steps .step.current {
+    color: #fff;
+    background-color: #5599e5;
+}
+
+.arrow-steps .step.current a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow-steps .step.current:after {
+    border-left: 17px solid #5599e5;
+}
+
+.arrow-steps .step.done {
+    color: #173352;
+    background-color: #2f69aa;
+}
+
+.arrow-steps .step.done a {
+    color: #173352;
+    text-decoration: none;
+}
+
+.arrow-steps .step.done:after {
+    border-left: 17px solid #2f69aa;
+}

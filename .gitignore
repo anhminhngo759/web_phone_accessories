@@ -1,0 +1,11 @@
+carbon/
+ckeditor/
+font-awesome/
+tfpdf/
+
+package-lock.json
+package.json
+
+admincp/vendors/
+admincp/gulpfile.js
+
